@@ -7,7 +7,7 @@
       "condaVersion": "latest"
     }
   },
-  "postCreateCommand": "mamba env update -n base -f environment.yml -y || true",
+  "postCreateCommand": "mamba env update -f environment.yml -y || true",
   "customizations": {
     "vscode": { "extensions": ["ms-python.python"] }
   }
